@@ -1,0 +1,5 @@
+--- General colors ---
+text color: #f3e0eb
+
+--- Button colors ---
+(Buttons use reduced intensity for readability)

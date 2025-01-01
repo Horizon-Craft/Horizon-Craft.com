@@ -15,7 +15,7 @@
 
     <!-- Pre-load images -->
     <?php
-    $directory = '/images/irl_trains';
+    $directory = '/images/hero_images';
     $images = glob($_SERVER['DOCUMENT_ROOT'] . $directory . '/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
     foreach ($images as $image) {
         $imagePath = $directory . '/' . basename($image);

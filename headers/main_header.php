@@ -1,12 +1,12 @@
 <header>
     <div class="logo">
-        <a href="/home">Vaelux.com</a>
+        <a href="/">Horizon-Craft.com</a>
     </div>
     <nav>
         <ul class="header">
-            <li><a href="/home">Home</a></li>
-            <li><a href="/about-me">About Me</a></li>
-            <li><a href="/projects">My Projects</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about-us">About us</a></li>
+            <li><a href="/">Store</a></li>
             <li><a href="/media-library">Media Library</a></li>
             <!--<li><a href="/train-sim-project">My Train Simulator Cab Project</a></li>
             <li><a href="/projects">My Projects</a></li>-->

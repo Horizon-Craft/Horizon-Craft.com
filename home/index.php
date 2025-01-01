@@ -15,7 +15,7 @@
     <!-- Pre-load images -->
     <?php
     // Directory path for the images
-    $directory = '/images/irl_trains';
+    $directory = '/images/hero_images';
 
     // Get all image files in the directory
     $images = glob($_SERVER['DOCUMENT_ROOT'] . $directory . '/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
@@ -32,17 +32,18 @@
             <div class="hero" id="hero-section"></div>
             <div class="hero" id="hero-overlay"></div>
             <div class="hero-content">
-                <h1>Welcome!</h1>
+                <img src="/images/home/HC_Title.png" alt="Horizon-Craft title">
                 <p></p>
-                <a href="/about-me" class="cta-button">More info about me</a>
+                <a href="/about-us" class="cta-button">More info about us</a>
             </div>
         </section>
 
         <section class="features">
             <div class="feature">
+                <br>
                 <h2 class="h2subhead">Website WIP</h2>
                 <p>The website is still a work in progress.</p>
-                <br>
+                <br><br><br>
                 <h2 class="h2subhead">Photo gallery</h2>
                 <a href="/gallery" class="cta-button">To the full photo gallery</a>
             </div>
@@ -58,7 +59,7 @@
 
     <?php
     // PHP to scan the directory and create an array of valid image paths
-    $imageDirectory = $_SERVER['DOCUMENT_ROOT'] . '/images/irl_trains';
+    $imageDirectory = $_SERVER['DOCUMENT_ROOT'] . '/images/hero_images';
     $images = array_filter(
         glob("{$imageDirectory}/*.{jpg,jpeg,png,gif}", GLOB_BRACE),
         'file_exists'
