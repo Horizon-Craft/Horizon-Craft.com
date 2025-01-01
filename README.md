@@ -1,6 +1,6 @@
 # Horizon-Craft.com
 <h3>The Horizon-Craft website repository.</h3>
-<p>Based on my website (vaelux.com)[https://github.com/VaeluxV/Vaelux.com]</p>
+<p>Based on my website <a href="https://github.com/VaeluxV/Vaelux.com">vaelux.com</a></p>
 
 <p>Currently still a WIP.</p>
 <p>Will be updated in the future.</p>
