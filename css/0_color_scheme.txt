@@ -1,5 +1,9 @@
 --- General colors ---
 text color: #f3e0eb
+Background color: #302a28
+Header gradient: linear-gradient(135deg, #E69A01, #E0017E)
 
 --- Button colors ---
 (Buttons use reduced intensity for readability)
+Button normal color: #cf8b02
+Button hover color: #E0017E
