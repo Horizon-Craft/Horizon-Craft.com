@@ -29,7 +29,7 @@
             <section class="socials">
                 <h1>Our Socials</h1>
                 <div class="social-buttons">
-                    <a href="https://www.youtube.com/@Vaelux_" target="_blank" class="social-button"><i
+                    <a href="https://www.youtube.com/@" target="_blank" class="social-button"><i
                             class="fab fa-youtube"></i> YouTube</a>
                     <a href="https://discord.gg/XfJevQemgx" target="_blank" class="social-button"><i
                             class="fab fa-discord"></i> Discord</a>

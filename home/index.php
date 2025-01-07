@@ -39,14 +39,23 @@
         </section>
 
         <section class="features">
+
+	    <div class="feature">
+	    	<h2>Horizon-Craft Minetopia Dynmap</h2>
+            	<div class="dynmap-container">
+                     	<iframe src="https://minetopia.maps.horizon-craft.com/?worldname=world&mapname=surface&zoom=4&x=314&y=64&z=-620" title="Dynmap"></iframe>
+            	</div>
+            </div>
+
             <div class="feature">
                 <br>
-                <h2 class="h2subhead">Website WIP</h2>
-                <p>The website is still a work in progress.</p>
+                <h2 class="h2subhead">Website is still a WIP</h2>
+		<p>The website is still a work in progress.</p>
                 <br><br><br>
                 <h2 class="h2subhead">Photo gallery</h2>
                 <a href="/gallery" class="cta-button">To the full photo gallery</a>
             </div>
+
         </section>
         <section class="subsection">
             <div class="subsectiontext">

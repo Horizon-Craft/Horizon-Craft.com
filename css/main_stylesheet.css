@@ -10,7 +10,7 @@ html, body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: #f3e0eb;
-    background-color: #302a28;
+    background-color: #222222;
 }
 
 body {
@@ -85,7 +85,7 @@ main {
 }
 
 .cta-button {
-    background: #cf8b02;
+    background: #0b76c7;
     color: #e0e7f3;
     padding: 10px 20px;
     text-decoration: none;
@@ -98,7 +98,7 @@ main {
 }
 
 .cta-button:hover {
-    background: #E0017E;
+    background: #c11b8a;
 }
 
 .cta-button:active {
@@ -132,17 +132,20 @@ main {
 
 .features {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; /* Space evenly between features */
     padding: 40px 20px;
+    gap: 20px; /* Add spacing between features */
 }
 
 .feature {
-    flex: 1;
+    flex: 1; /* This allows features to grow and take equal space */
+    max-width: 45%; /* Optional: limits the width of each feature */
     text-align: center;
     padding: 20px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
 }
 
-.feature h2 {
+feature h2 {
     font-size: 24px;
 }
 
@@ -160,5 +163,19 @@ main {
 
 .subsectiontext h2 {
     font-size: 24px;
+}
+
+.dynmap-container {
+    margin: 0 auto; /* Center the iframe inside the feature */
+    max-width: 100%;
+    height: 500px; /* Adjust height for the iframe */
+    border: 2px solid #555; /* Optional: border for styling */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional: shadow */
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none; /* Removes iframe border */
 }
 
